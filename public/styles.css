@@ -1,0 +1,18 @@
+/* Structure */
+h1{
+    text-align: center;
+}
+
+body{
+    background: lightseagreen;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+/* Typography */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}

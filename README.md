@@ -1,1 +1,1 @@
-# server-side-json
+Practicing using server side JSON.
