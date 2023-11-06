@@ -28,10 +28,6 @@ const showTools = async() =>{
         description.innerHTML = "Description: " + tool.description;
         section.append(description);
 
-        const percent = document.createElement("p");
-        percent.innerHTML = tool.percentUsed;
-        section.append(percent);
-
         const img = document.createElement("img");
         img.src = "https://server-side-json-8sgf.onrender.com/" + tool.img;
         section.append(img);
