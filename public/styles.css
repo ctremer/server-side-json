@@ -1,18 +1,43 @@
 /* Structure */
-h1{
+h1 {
     text-align: center;
 }
 
-body{
+body {
     background: lightseagreen;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-img{
+#tools-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 40%;
+    margin: 10px;
+    padding: 20px;
+    background: lightskyblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 440px;
+}
+
+img {
     width: 100px;
     height: 100px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Typography */
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
 }
