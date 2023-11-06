@@ -33,13 +33,13 @@ const showTools = async() =>{
         section.append(percent);
 
         const img = document.createElement("img");
-        img.src = "https://server-side-json-yz0w.onrender.com/" + tool.img;
+        img.src = "http://localhost:3001/" + tool.img;
         section.append(img);
     })
 }
 const getTools = async() =>{
     try{
-        return (await fetch("https://server-side-json-yz0w.onrender.com/api/tools")).json();
+        return (await fetch("http://localhost:3001/api/tools")).json();
     }catch(error){
         console.log("error retrieving json");
         return "";
